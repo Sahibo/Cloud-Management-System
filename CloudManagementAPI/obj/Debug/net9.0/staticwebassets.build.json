@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4Ye9U1I0YwfL2ABwNOGqKx1Vu3pG2w3wLP/G1v6hP88=",
+  "Source": "CloudManagementAPI",
+  "BasePath": "_content/CloudManagementAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
