@@ -1,3 +1,11 @@
+using CloudManagementAPI.Data;
+using CloudManagementAPI.Repositories;
+using CloudManagementAPI.Services;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+//using Microsoft.EntityFrameworkCore;
 
 namespace CloudManagementAPI
 {
@@ -5,30 +13,35 @@ namespace CloudManagementAPI
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
-            builder.Services.AddControllers();
-            // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-            builder.Services.AddOpenApi();
-
-            var app = builder.Build();
-
-            // Configure the HTTP request pipeline.
-            if (app.Environment.IsDevelopment())
-            {
-                app.MapOpenApi();
-            }
-
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
-            app.MapControllers();
-
-            app.Run();
+            // Create and run the web host
+            CreateHostBuilder(args).Build().Run();
         }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.ConfigureServices((hostContext, services) =>
+                    {
+                        
+                        //services.AddDbContext<ApplicationDbContext>(options =>
+                        //    options.UseSqlServer(hostContext.Configuration.GetConnectionString("DefaultConnection")));
+
+                        services.AddScoped<CloudResourceRepository>();
+                        services.AddScoped<CloudResourceService>();
+
+                        services.AddControllers();
+                    });
+
+                    webBuilder.Configure(app =>
+                    {
+                        app.UseRouting();
+
+                        app.UseEndpoints(endpoints =>
+                        {
+                            endpoints.MapControllers(); 
+                        });
+                    });
+                });
     }
 }
