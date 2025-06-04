@@ -40,11 +40,11 @@ CloudManagementAPI is a backend API designed to manage cloud resources such as V
 
 - /CloudManagementAPI
  - ├── Controllers/
- - ├── Data/ (DbContext, Migrations)
+ - ├── Data/ (DbContext)
  - ├── Dtos/
  - ├── Interfaces/
- - │ ├── Repositories/
- - │ └── Services/
+ - │ ├── Repositories
+ - │ └── Services
  - ├── Models/
  - ├── Repositories/
  - ├── Services/
@@ -57,7 +57,7 @@ CloudManagementAPI is a backend API designed to manage cloud resources such as V
 
 ### Prerequisites
 
-- .NET 8 SDK
+- .NET 9
 - appsettings.json or LocalDB
 
 ### Run the API
