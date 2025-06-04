@@ -1,16 +1,401 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\services\\cloudresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:services\\cloudresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\cloudmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:cloudmanagementapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\ivirtualmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\ivirtualmachinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\istoragebucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\istoragebucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\istoragebucketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\istoragebucketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\icloudresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\icloudresourceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\icloudresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\icloudresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\dtos\\storagebucketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:dtos\\storagebucketdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\dtos\\virtualmachinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:dtos\\virtualmachinedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\controllers\\cloudresourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:controllers\\cloudresourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\dtos\\cloudresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:dtos\\cloudresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\controllers\\virtualmachinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:controllers\\virtualmachinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\models\\virtualmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:models\\virtualmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\services\\storagebucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:services\\storagebucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\services\\virtualmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:services\\virtualmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\tests\\cloudresourceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:tests\\cloudresourceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\tests\\storagebucketservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:tests\\storagebucketservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\tests\\virtualmachineservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:tests\\virtualmachineservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\interfaces\\ivirtualmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:interfaces\\ivirtualmachineservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|c:\\users\\sahib\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\cms\\cloudmanagementapi\\controllers\\storagebucketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A314A3C-6481-4167-8EA6-C3EFF04F627B}|CloudManagementAPI.csproj|solutionrelative:controllers\\storagebucketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahib\\AppData\\Local\\Temp\\1ggqhsus..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahib\\AppData\\Local\\Temp\\1ggqhsus..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\sahib\\AppData\\Local\\Temp\\1ggqhsus..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 241,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VirtualMachinesController.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\VirtualMachinesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\VirtualMachinesController.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\VirtualMachinesController.cs",
+              "RelativeToolTip": "Controllers\\VirtualMachinesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:12:49.995Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T19:54:48.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CloudManagementAPI.http",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\CloudManagementAPI.http",
+              "RelativeDocumentMoniker": "CloudManagementAPI.http",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\CloudManagementAPI.http",
+              "RelativeToolTip": "CloudManagementAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-04T19:54:44.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:50:02.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VirtualMachineDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\VirtualMachineDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\VirtualMachineDTO.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\VirtualMachineDTO.cs",
+              "RelativeToolTip": "DTOs\\VirtualMachineDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:49:59.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StorageBucketDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\StorageBucketDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\StorageBucketDTO.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\StorageBucketDTO.cs",
+              "RelativeToolTip": "DTOs\\StorageBucketDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:49:58.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CloudResourceDTO.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\CloudResourceDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CloudResourceDTO.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\DTOs\\CloudResourceDTO.cs",
+              "RelativeToolTip": "DTOs\\CloudResourceDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:49:57.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "VirtualMachine.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Models\\VirtualMachine.cs",
+              "RelativeDocumentMoniker": "Models\\VirtualMachine.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Models\\VirtualMachine.cs",
+              "RelativeToolTip": "Models\\VirtualMachine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T19:49:47.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CloudResourceService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\CloudResourceService.cs",
+              "RelativeDocumentMoniker": "Services\\CloudResourceService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\CloudResourceService.cs",
+              "RelativeToolTip": "Services\\CloudResourceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:01:03.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "VirtualMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\VirtualMachineService.cs",
+              "RelativeDocumentMoniker": "Services\\VirtualMachineService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\VirtualMachineService.cs",
+              "RelativeToolTip": "Services\\VirtualMachineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T15:00:46.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICloudResourceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\ICloudResourceRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICloudResourceRepository.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\ICloudResourceRepository.cs",
+              "RelativeToolTip": "Interfaces\\ICloudResourceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:57:35.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICloudResourceService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\ICloudResourceService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ICloudResourceService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\ICloudResourceService.cs",
+              "RelativeToolTip": "Interfaces\\ICloudResourceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:57:34.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CloudResourceServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\CloudResourceServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\CloudResourceServiceTests.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\CloudResourceServiceTests.cs",
+              "RelativeToolTip": "Tests\\CloudResourceServiceTests.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:51:48.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "VirtualMachineServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\VirtualMachineServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\VirtualMachineServiceTests.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\VirtualMachineServiceTests.cs",
+              "RelativeToolTip": "Tests\\VirtualMachineServiceTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAqwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:51:39.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "StorageBucketServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\StorageBucketServiceTests.cs",
+              "RelativeDocumentMoniker": "Tests\\StorageBucketServiceTests.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Tests\\StorageBucketServiceTests.cs",
+              "RelativeToolTip": "Tests\\StorageBucketServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:49:50.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StorageBucketService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\StorageBucketService.cs",
+              "RelativeDocumentMoniker": "Services\\StorageBucketService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Services\\StorageBucketService.cs",
+              "RelativeToolTip": "Services\\StorageBucketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:49:42.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StorageBucketsController.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\StorageBucketsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StorageBucketsController.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\StorageBucketsController.cs",
+              "RelativeToolTip": "Controllers\\StorageBucketsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:49:03.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CloudResourceController.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\CloudResourceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CloudResourceController.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Controllers\\CloudResourceController.cs",
+              "RelativeToolTip": "Controllers\\CloudResourceController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:48:59.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IVirtualMachineService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IVirtualMachineService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IVirtualMachineService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IVirtualMachineService.cs",
+              "RelativeToolTip": "Interfaces\\IVirtualMachineService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:48:18.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IVirtualMachineRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IVirtualMachineRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IVirtualMachineRepository.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IVirtualMachineRepository.cs",
+              "RelativeToolTip": "Interfaces\\IVirtualMachineRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:45:03.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IStorageBucketService.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IStorageBucketService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStorageBucketService.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IStorageBucketService.cs",
+              "RelativeToolTip": "Interfaces\\IStorageBucketService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:44:58.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStorageBucketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IStorageBucketRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IStorageBucketRepository.cs",
+              "ToolTip": "C:\\Users\\sahib\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CMS\\CloudManagementAPI\\Interfaces\\IStorageBucketRepository.cs",
+              "RelativeToolTip": "Interfaces\\IStorageBucketRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:44:46.331Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -18,6 +403,17 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SQLQuery1.sql ",
+              "DocumentMoniker": "C:\\Users\\sahib\\AppData\\Local\\Temp\\1ggqhsus..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\1ggqhsus..sql",
+              "ToolTip": "SQLQuery1.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-04T12:13:06.552Z",
+              "EditorCaption": ""
             }
           ]
         }

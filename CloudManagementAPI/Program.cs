@@ -1,47 +1,40 @@
 using CloudManagementAPI.Data;
+using CloudManagementAPI.Interfaces;
 using CloudManagementAPI.Repositories;
 using CloudManagementAPI.Services;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-//using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 
-namespace CloudManagementAPI
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ICloudResourceRepository, CloudResourceRepository>();
+builder.Services.AddScoped<ICloudResourceService, CloudResourceService>();
+builder.Services.AddScoped<IVirtualMachineService, VirtualMachineService>();
+builder.Services.AddScoped<IVirtualMachineRepository, VirtualMachineRepository>();
+builder.Services.AddScoped<IStorageBucketService, StorageBucketService>();
+builder.Services.AddScoped<IStorageBucketRepository, StorageBucketRepository>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
 {
-    public class Program
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
     {
-        public static void Main(string[] args)
-        {
-            // Create and run the web host
-            CreateHostBuilder(args).Build().Run();
-        }
-
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.ConfigureServices((hostContext, services) =>
-                    {
-                        
-                        //services.AddDbContext<ApplicationDbContext>(options =>
-                        //    options.UseSqlServer(hostContext.Configuration.GetConnectionString("DefaultConnection")));
-
-                        services.AddScoped<CloudResourceRepository>();
-                        services.AddScoped<CloudResourceService>();
-
-                        services.AddControllers();
-                    });
-
-                    webBuilder.Configure(app =>
-                    {
-                        app.UseRouting();
-
-                        app.UseEndpoints(endpoints =>
-                        {
-                            endpoints.MapControllers(); 
-                        });
-                    });
-                });
-    }
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "CloudManagementAPI v1");
+        c.RoutePrefix = string.Empty; 
+    });
 }
+
+app.UseRouting();
+
+app.MapControllers();
+
+app.Run();
