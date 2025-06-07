@@ -72,5 +72,42 @@ namespace CloudManagementAPI.Tests.Services
             _mockRepo.Verify(r => r.DeleteAsync(id), Times.Once);
             _mockRepo.Verify(r => r.SaveChangesAsync(), Times.Once);
         }
+
+
+        [Fact]
+        public void PerformVirtualMachineAction_Start_ReturnsStartingMessage()
+        {
+            var mockRepo = new Mock<IVirtualMachineRepository>();
+            var service = new VirtualMachineService(mockRepo.Object);
+            var vm = new VirtualMachine { Name = "TestVM", OS = "Linux", CPUCores = 4, RAMGb = 8, Region = "Poland" };
+
+            var result = service.PerformVirtualMachineAction(vm, "start");
+
+            Assert.Equal("Virtual Machine 'TestVM' is starting...", result);
+        }
+
+        [Fact]
+        public void PerformVirtualMachineAction_Stop_ReturnsStoppingMessage()
+        {
+            var mockRepo = new Mock<IVirtualMachineRepository>();
+            var service = new VirtualMachineService(mockRepo.Object);
+            var vm = new VirtualMachine { Name = "TestVM", OS = "Linux", CPUCores = 4, RAMGb = 8, Region = "Poland" };
+
+            var result = service.PerformVirtualMachineAction(vm, "stop");
+
+            Assert.Equal("Virtual Machine 'TestVM' is stopping...", result);
+        }
+
+        [Fact]
+        public void PerformVirtualMachineAction_UnknownAction_ReturnsUnknownMessage()
+        {
+            var mockRepo = new Mock<IVirtualMachineRepository>();
+            var service = new VirtualMachineService(mockRepo.Object);
+            var vm = new VirtualMachine { Name = "TestVM", OS = "Linux", CPUCores = 4, RAMGb = 8, Region = "Poland" };
+
+            var result = service.PerformVirtualMachineAction(vm, "unknown_action");
+
+            Assert.Equal("Unknown action 'unknown_action' for Virtual Machine 'TestVM'.", result);
+        }
     }
 }

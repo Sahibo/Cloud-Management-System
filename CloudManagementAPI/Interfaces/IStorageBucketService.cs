@@ -9,5 +9,10 @@ namespace CloudManagementAPI.Interfaces
         Task AddAsync(StorageBucket bucket);
         Task UpdateAsync(StorageBucket bucket);
         Task DeleteAsync(int id);
+
+        string GetStorageBucketDetails(StorageBucket bucket);
+
+        string PerformStorageBucketAction(StorageBucket bucket, string actionType);
+
     }
 }

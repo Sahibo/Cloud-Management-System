@@ -11,5 +11,6 @@ namespace CloudManagementAPI.Models
         public DateTime CreatedAt { get; set; }
 
         public abstract string GetResourceDetails();
+        public abstract string PerformAction(string actionType);
     }
 }

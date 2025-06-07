@@ -35,5 +35,14 @@ namespace CloudManagementAPI.Services
             await _repository.UpdateAsync(vm);
             await _repository.SaveChangesAsync();
         }
+
+        public string GetVirtualMachineDetails(VirtualMachine vm)
+        {
+            return vm.GetResourceDetails();
+        }
+        public string PerformVirtualMachineAction(VirtualMachine vm, string actionType)
+        {
+            return vm.PerformAction(actionType);
+        }
     }
 }

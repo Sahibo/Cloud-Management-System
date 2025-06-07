@@ -9,5 +9,10 @@ namespace CloudManagementAPI.Interfaces
         Task AddAsync(VirtualMachine vm);
         Task UpdateAsync(VirtualMachine vm);
         Task DeleteAsync(int id);
+
+        string GetVirtualMachineDetails(VirtualMachine vm);
+
+        string PerformVirtualMachineAction(VirtualMachine vm, string actionType);
+
     }
 }

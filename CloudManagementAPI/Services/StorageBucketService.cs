@@ -35,5 +35,14 @@ namespace CloudManagementAPI.Services
             await _repository.UpdateAsync(bucket);
             await _repository.SaveChangesAsync();
         }
+
+        public string GetStorageBucketDetails(StorageBucket bucket)
+        {
+            return bucket.GetResourceDetails();
+        }
+        public string PerformStorageBucketAction(StorageBucket bucket, string actionType)
+        {
+            return bucket.PerformAction(actionType);
+        }
     }
 }

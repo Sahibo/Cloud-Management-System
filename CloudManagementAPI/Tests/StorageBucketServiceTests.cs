@@ -72,5 +72,44 @@ namespace CloudManagementAPI.Tests.Services
             _mockRepo.Verify(r => r.DeleteAsync(id), Times.Once);
             _mockRepo.Verify(r => r.SaveChangesAsync(), Times.Once);
         }
+
+        [Fact]
+        public void PerformStorageBucketAction_Upload_ReturnsInitiatingUploadMessage()
+        {
+            // Arrange
+            var mockRepo = new Mock<IStorageBucketRepository>();
+            var service = new StorageBucketService(mockRepo.Object);
+            var bucket = new StorageBucket { Name = "TestBucket", CapacityGb = 100, Region = "Novigrad" };
+
+            // Act
+            var result = service.PerformStorageBucketAction(bucket, "upload");
+
+            // Assert
+            Assert.Equal("Initiating file upload to Storage Bucket 'TestBucket'.", result);
+        }
+
+        [Fact]
+        public void PerformStorageBucketAction_Empty_ReturnsWarningMessage()
+        {
+            var mockRepo = new Mock<IStorageBucketRepository>();
+            var service = new StorageBucketService(mockRepo.Object);
+            var bucket = new StorageBucket { Name = "TestBucket", CapacityGb = 100, Region = "Novigrad" };
+
+            var result = service.PerformStorageBucketAction(bucket, "empty");
+
+            Assert.Equal("Warning: All contents of Storage Bucket 'TestBucket' are being deleted!", result);
+        }
+
+        [Fact]
+        public void PerformStorageBucketAction_UnknownAction_ReturnsUnknownMessage()
+        {
+            var mockRepo = new Mock<IStorageBucketRepository>();
+            var service = new StorageBucketService(mockRepo.Object);
+            var bucket = new StorageBucket { Name = "TestBucket", CapacityGb = 100, Region = "Novigrad" };
+
+            var result = service.PerformStorageBucketAction(bucket, "unknown_action");
+
+            Assert.Equal("Unknown action 'unknown_action' for Storage Bucket 'TestBucket'.", result);
+        }
     }
 }

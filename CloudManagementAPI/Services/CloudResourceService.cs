@@ -22,5 +22,14 @@ namespace CloudManagementAPI.Services
             return await _repository.GetByIdAsync(id);
         }
 
+        public string GetCloudResourceDetails(CloudResource resource)
+        {
+            return resource.GetResourceDetails();
+        }
+        public string PerformCloudResourceAction(CloudResource resource, string actionType)
+        {
+            return resource.PerformAction(actionType);
+        }
+
     }
 }
