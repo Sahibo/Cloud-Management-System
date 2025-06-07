@@ -64,7 +64,7 @@ CloudManagementAPI is a backend API designed to manage cloud resources such as V
 
 ```bash
 dotnet run
-Then open https://localhost:{your port}/swagger to explore the API.
+Then open https://localhost:{your port}/index.html to explore the API.
 
 🧪 Run Tests
 bash
